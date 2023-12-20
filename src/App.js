@@ -16,7 +16,6 @@ function App() {
 
   useEffect(() => {
     async function getBlockNumber() {
-      // Assuming alchemy is defined somewhere in your code
       setBlockNumber(await alchemy.core.getBlockNumber());
     }
 
